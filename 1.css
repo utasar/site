@@ -1,0 +1,213 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.nav {
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    height: 80px;
+}
+body{
+    background-color: rgb(105, 105, 105);
+}
+
+.nav a {
+    text-decoration: none;
+    font-size: 40px;
+    color: white;
+    position: relative;
+    top: 10px;
+    margin-left: 20px;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    margin-left: 100px;
+}
+
+.nav ul li a:hover {
+    color: rgb(21, 52, 255);
+    transition: ease-in-out 200ms;
+}
+
+.nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    position: relative;
+    top: 10px;
+    list-style: none;
+    float: right;
+    margin-right: 40px;
+}
+
+.nav a:hover {
+    color: rgb(6, 35, 255);
+    transition: ease-in-out 200ms;
+}
+
+.body-text {
+    display: flex;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    margin-top: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.body-cont {
+    width: 100%;
+}
+
+.body_cona {
+    width: 100%;
+}
+
+.body-code{
+    display: flex;
+    justify-content: center;
+}
+
+.cards {
+    max-width: 620px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 150px;
+    height: 200px;
+    background-color: rgb(28, 145, 255);
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius: 20px;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.card:hover {
+    width: 170px;
+    height: 220px;
+    cursor: pointer;
+    transition: ease-in-out 0.3s;
+}
+
+.cards a {
+    text-decoration: none;
+}
+
+.codes div {
+    width: 90%;
+    margin-left: 5%;
+}
+
+.codes div img {
+    width: 80vw;
+}
+
+.next {
+    padding: 10px 25px;
+    background-color: rgb(0, 115, 255);
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    border-radius: 10px;
+    float: right;
+    margin-right: 5%;
+    margin-bottom: 20px;
+}
+
+.body-cona {
+    padding-bottom: 10px;
+}
+
+@media only screen and (max-width: 449px) {
+    .program_code img,
+    .output img {
+        max-width: calc(90vw - 20px);
+    }
+}
+
+@media only screen and (min-width: 450px) {
+    .program_code img,
+    .output img {
+        max-width: calc(80vw - 20px);
+    }
+}
+
+@media only screen and (min-width:610px) {
+    .program_code img,
+    .output img {
+        max-width: calc(70vw - 20px);
+    }
+}
+
+@media only screen and (min-width: 690px) {
+    .program_code img,
+    .output img {
+        max-width: calc(60vw - 20px);
+    }
+}
+
+@media only screen and (min-width: 900px) {
+    .program_code img,
+    .output img {
+        max-width: calc(50vw - 20px);
+    }
+}
+
+@media only screen and (min-width: 901px) {
+    .program_code img,
+    .output img {
+        max-width: calc(40vw - 20px);
+    }
+}
+
+.program_code {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+}
+
+.output {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 15px;
+}
+.footer{
+    float: right;
+    padding-top: 20px;
+    margin-right: 40px;
+    padding-bottom: 20px;
+}
+.footer-content span{
+    font-size: 18px;
+    position: relative;
+    top: -10px;
+    color: rgb(41, 41, 41);
+}
+#fb-icon{
+    font-size: 35px;
+    color: rgb(255, 255, 255);
+    padding: 8px;
+}
+#fb-icon:hover{
+    color: blue;
+    background-color: white;
+    border-radius: 25px;
+    font-size: 30px;
+    cursor: pointer;
+}
